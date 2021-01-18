@@ -15,3 +15,6 @@
 .settings__setting-column:last-child {
   opacity: 0.5;
 }
+.settings__setting:hover {
+  animation: z 1s ease-in-out forwards;
+}

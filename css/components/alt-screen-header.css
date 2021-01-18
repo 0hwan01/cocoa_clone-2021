@@ -33,3 +33,6 @@
 .alt-header__column span {
   font-size: 18px;
 }
+.alt-header__column:hover {
+  animation: i 1s ease-in-out forwards;
+}

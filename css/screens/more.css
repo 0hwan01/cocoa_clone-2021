@@ -20,6 +20,9 @@
   flex-direction: column;
   align-items: center;
 }
+.more-suggestions__icon:hover {
+  animation: size 1s ease-in-out forwards;
+}
 .more-suggestions__icon-image {
   width: 60px;
   height: 60px;
@@ -34,4 +37,19 @@
 .more-suggestions__icon-image i {
   font-size: 32px;
   color: white;
+}
+
+@keyframes size {
+  0% {
+    color: whitesmoke;
+    transform: rotateY(0deg);
+  }
+  50% {
+    color: #235e96;
+    transform: rotateY(180deg);
+  }
+  100% {
+    color: whitesmoke;
+    transform: rotateY(0deg);
+  }
 }
