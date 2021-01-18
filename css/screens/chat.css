@@ -17,6 +17,7 @@
 }
 #chat-screen .alt-header {
   top: 0px;
+  z-index: 1;
 }
 
 @keyframes fadeIn {
