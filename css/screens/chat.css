@@ -13,11 +13,10 @@
 }
 
 #chat-screen .status-bar {
-  z-index: 2;
+  z-index: 1;
 }
 #chat-screen .alt-header {
   top: 0px;
-  z-index: 1;
 }
 
 @keyframes fadeIn {

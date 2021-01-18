@@ -62,4 +62,5 @@
   animation: hideSplashScreen 0.4s ease-in-out forwards;
   animation-delay: 2s;
   color: rgb(22, 22, 21);
+  z-index: 90;
 }
